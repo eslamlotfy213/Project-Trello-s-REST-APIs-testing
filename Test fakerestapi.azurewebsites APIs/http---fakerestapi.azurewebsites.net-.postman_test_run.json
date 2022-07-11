@@ -1,0 +1,417 @@
+{
+	"id": "114e62dc-621b-44ed-8407-411af78844b8",
+	"name": "http://fakerestapi.azurewebsites.net/",
+	"timestamp": "2022-07-10T01:55:26.258Z",
+	"collection_id": "19366374-c6cbe181-6789-4626-88b7-0dab90fcb984",
+	"folder_id": 0,
+	"environment_id": "19366374-0f4b3ce4-d494-446c-8dd7-140c23d6f12e",
+	"totalPass": 23,
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "805085d2-bdb5-4f92-a54d-a629836be037",
+			"name": "Test Case 1: Make sure the response is \"200 OK\"",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors",
+			"time": 599,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check response should be 200 ": true,
+				"Check status value should be ok": true
+			},
+			"testPassFailCounts": {
+				"Check response should be 200 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check status value should be ok": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				599
+			],
+			"allTests": [
+				{
+					"Check response should be 200 ": true,
+					"Check status value should be ok": true
+				}
+			]
+		},
+		{
+			"id": "9c7687f6-869d-4365-b4d0-ee2efd5ed96e",
+			"name": "Test Case 2: firstname and lastname  should be mandatory",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check firstname and lastname should be mandatory ": false,
+				"Check status value should be error": false
+			},
+			"testPassFailCounts": {
+				"Check firstname and lastname should be mandatory ": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check status value should be error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Check firstname and lastname should be mandatory ": false,
+					"Check status value should be error": false
+				}
+			]
+		},
+		{
+			"id": "4ab8d79f-1701-4309-ac18-d62dd5aaa86e",
+			"name": "Test Case 2: Objects inside response contain, id, idBook, firstName, lastName.",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check response should be 200 ": true,
+				"Check status value should be ok": true,
+				"Check Objects response contains id": true,
+				"Check Objects response contains idBook": true,
+				"Check Objects response contains firstName": true,
+				"Check Objects response contains lastName": true
+			},
+			"testPassFailCounts": {
+				"Check response should be 200 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check status value should be ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check Objects response contains id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check Objects response contains idBook": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check Objects response contains firstName": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check Objects response contains lastName": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Check response should be 200 ": true,
+					"Check status value should be ok": true,
+					"Check Objects response contains id": true,
+					"Check Objects response contains idBook": true,
+					"Check Objects response contains firstName": true,
+					"Check Objects response contains lastName": true
+				}
+			]
+		},
+		{
+			"id": "311ab147-6f3e-48fb-b85d-b391ac2c043c",
+			"name": "Test Case 1: Register a new valid Author successfully and response code \"201 Created\".",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check Register a new valid Author successfully with response 200 or 201": true,
+				"Check status value should be ok": true,
+				"Check New id is created successfully": true,
+				"Check New idBook is created successfully": true,
+				"Check New firstName is created successfully": true,
+				"Check New lastName is created successfully": true,
+				"Check response must be valid and have a body": true
+			},
+			"testPassFailCounts": {
+				"Check Register a new valid Author successfully with response 200 or 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check status value should be ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check New id is created successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check New idBook is created successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check New firstName is created successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check New lastName is created successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				107
+			],
+			"allTests": [
+				{
+					"Check Register a new valid Author successfully with response 200 or 201": true,
+					"Check status value should be ok": true,
+					"Check New id is created successfully": true,
+					"Check New idBook is created successfully": true,
+					"Check New firstName is created successfully": true,
+					"Check New lastName is created successfully": true,
+					"Check response must be valid and have a body": true
+				}
+			]
+		},
+		{
+			"id": "4c515dd8-0770-4d1e-96c1-5611a24fc5f3",
+			"name": "Test Case 3: firstname and lastname should't be empty",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check firstname should't be empty": false,
+				"Check lastname should't be empty": false
+			},
+			"testPassFailCounts": {
+				"Check firstname should't be empty": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check lastname should't be empty": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Check firstname should't be empty": false,
+					"Check lastname should't be empty": false
+				}
+			]
+		},
+		{
+			"id": "f572b50f-26f6-4131-be15-85bf323c817a",
+			"name": "Test Case 1: Searching with valid idBook should return relative data in response body",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/CoverPhotos/books/covers/10%0A",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check response should be 200 ": true,
+				"Check status value should be ok": true,
+				"Check Searching with valid idBook should return relative data": true
+			},
+			"testPassFailCounts": {
+				"Check response should be 200 ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check status value should be ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check Searching with valid idBook should return relative data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				189
+			],
+			"allTests": [
+				{
+					"Check response should be 200 ": true,
+					"Check status value should be ok": true,
+					"Check Searching with valid idBook should return relative data": true
+				}
+			]
+		},
+		{
+			"id": "b8ac1718-29f5-4b96-8923-b880fb40a392",
+			"name": "Test Case 1: Author's data is updated successfully.",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/10%0A",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check Status code is 200": true,
+				"Check New firstName is updated successfully": true,
+				"Check New lastName is updated successfully": true
+			},
+			"testPassFailCounts": {
+				"Check Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check New firstName is updated successfully": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check New lastName is updated successfully": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				100
+			],
+			"allTests": [
+				{
+					"Check Status code is 200": true,
+					"Check New firstName is updated successfully": true,
+					"Check New lastName is updated successfully": true
+				}
+			]
+		},
+		{
+			"id": "13f80cb8-328e-47cc-9737-d3186f06a3da",
+			"name": "Test case 1: The author's data is changed in GET request",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/10",
+			"time": 93,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check Status code is 200": true,
+				"Check New firstName if is updated successfully": false,
+				"Check New lastName if is updated successfully": false
+			},
+			"testPassFailCounts": {
+				"Check Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check New firstName if is updated successfully": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Check New lastName if is updated successfully": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"Check Status code is 200": true,
+					"Check New firstName if is updated successfully": false,
+					"Check New lastName if is updated successfully": false
+				}
+			]
+		},
+		{
+			"id": "c9f1c111-4cb2-4468-84e0-9e77cdb16d5e",
+			"name": "Test case 1: make sure that all response objects contains the correct idBook.",
+			"url": "http://fakerestapi.azurewebsites.net/api/v1/Authors/authors/books/10",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Check that objects contains Correct idBook in response": true
+			},
+			"testPassFailCounts": {
+				"Check that objects contains Correct idBook in response": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Check that objects contains Correct idBook in response": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1554,
+	"collection": {
+		"requests": [
+			{
+				"id": "805085d2-bdb5-4f92-a54d-a629836be037",
+				"method": "GET"
+			},
+			{
+				"id": "9c7687f6-869d-4365-b4d0-ee2efd5ed96e",
+				"method": "POST"
+			},
+			{
+				"id": "4ab8d79f-1701-4309-ac18-d62dd5aaa86e",
+				"method": "GET"
+			},
+			{
+				"id": "311ab147-6f3e-48fb-b85d-b391ac2c043c",
+				"method": "POST"
+			},
+			{
+				"id": "4c515dd8-0770-4d1e-96c1-5611a24fc5f3",
+				"method": "POST"
+			},
+			{
+				"id": "f572b50f-26f6-4131-be15-85bf323c817a",
+				"method": "GET"
+			},
+			{
+				"id": "b8ac1718-29f5-4b96-8923-b880fb40a392",
+				"method": "PUT"
+			},
+			{
+				"id": "13f80cb8-328e-47cc-9737-d3186f06a3da",
+				"method": "GET"
+			},
+			{
+				"id": "c9f1c111-4cb2-4468-84e0-9e77cdb16d5e",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+Test Case :check Status code is 200
+Test Case :check closed value matches with response results
+Test Case :check permissionLevel value matches with response results
+Test Case :check canBePublic value matches with response results
+Test Case :check canInvite value matches with response results
+
+Test Case :check Status code is 200
+Test Case :check Print all id created of boards
+Test Case :check that number of boards in the response is matched successfully
+Test Case :check FirstBoardID is added
+Test Case :check LastBoardID is added
+
+Test Case :check Status code is 200
+Test Case :check board is removed successfully
+
+Test Case :check Status code is 404
+Test Case :check after Delete a Board that resource was not found
+
+Test Case :check Status code is 200
+Test Case :check Objects response have Own Property id
+Test Case :check Objects response have Own Property name
+Test Case :check Objects response have Own Property idBoard
+Test Case :Check closed value matches with response results is false
+Test Case :Check limits value matches with response results are empty object
+
+
+Test Case :check Status code is 200
+Test Case :check Print all id created of Lists
+Test Case :check Get FirstListID 
+Test Case :check Get LastListID 
+
+Test Case :check when archive a list if the value is true
+Test Case :check header 'Set-Cookie' matched with response successfully
+
+Test Case:check when un-archive a list if the value is false
+Test Case:check header 'Set-Cookie' matched with response successfully

@@ -1,0 +1,37 @@
+Test Case :Make sure the response is "200 OK"
+Test Case :Check status value should be ok"
+
+Test Case :Check firstname and lastname should be mandatory 
+Test Case :Check status value should be error
+
+Test Case :Check response should be 200
+Test Case :Check Objects response contains id
+Test Case :Check Objects response contains idBook
+Test Case :Check Objects response contains firstName
+Test Case :Check Objects response contains lastName
+
+Test Case :Check Register a new valid Author successfully with response 201
+Test Case :Check status value should be ok
+
+Test Case :Check New id is created successfully
+Test Case :Check New idBook is created successfully
+Test Case :Check New firstName is created successfully
+Test Case :Check New lastName is created successfully
+Test Case :Check response must be valid and have a body
+
+Test Case :Check firstname should't be empty
+Test Case :Check lastname should't be empty
+
+Test Case :Check response should be 200
+Test Case :Check status value should be ok
+Test Case :Check Searching with valid idBook should return relative data
+
+Test Case :Check Status code is 200
+Test Case :Check New firstName is updated successfully
+Test Case :Check New lastName is updated successfully
+
+Test Case :Check Status code is 200
+Test Case :Check get New firstName if is updated successfully
+Test Case :Check get New lastName if is updated successfully
+
+Test Case :Check that objects contains Correct idBook in response
